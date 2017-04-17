@@ -27,8 +27,7 @@ MYSQL_HOME=/usr/local/mysql
 # Useful debugging option:
 # MYSQL_OPTIONS="--log=general.log"
 
-MYSQL_OPTIONS=""
-
+MYSQL_OPTIONS="--secure-file-priv=/private/tmp"
 
 # Start MySQL
 
